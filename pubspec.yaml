@@ -1,0 +1,51 @@
+name: gokyo
+description: place to buy everything.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter:
+  get:
+  dio:
+  get_storage:
+  image_picker:
+  http: ^1.1.0
+  shared_preferences:
+  fluttertoast:
+  lottie:
+  dots_indicator:
+  google_fonts:
+  carousel_slider:
+  json_theme:
+  google_nav_bar:
+  internet_connection_checker:
+  connectivity_plus:
+  provider:
+  expandable:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons:
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  image_path: "assets/icons/icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/animation/
